@@ -1,0 +1,79 @@
+body,
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    position: absolute;
+    height: 64px;
+    width: 100%;
+}
+    .logo {
+        float: left;
+        width: 240px;
+        height: 100%;
+    }
+
+.main {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sidebar {
+    position: absolute;
+    width: 320px;
+    height: 100%;
+    overflow: auto;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 240px;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+.popup-container,
+.popup-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.popup-model {
+    position: absolute;
+    width: 80vw;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000000;
+}
+.popup-model iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dump {
+    margin: 0;
+    height: 100%;
+    padding: 0 0 0 320px;
+    color: #fff;
+    /*background: url(https://d35krx4ujqgbcr.cloudfront.net/urls/faed84a829114e378be255414a7826ca/thumbnails/f1ec3ec890af45b79a23151e12d7d560/1024.jpeg) no-repeat;*/
+    background-size: cover;
+}

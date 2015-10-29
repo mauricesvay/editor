@@ -1,0 +1,23 @@
+.widget-numberedSlider {
+    padding: 4px 0;
+}
+.widget-numberedSlider-header {
+    display: flex;
+    padding-bottom: 4px;
+}
+    .widget-numberedSlider-header .name {
+        flex: auto;
+    }
+    .widget-numberedSlider-header .value {
+        flex: none;
+        width: 3em;
+        border: 0;
+        border-radius: 3px;
+        text-align: right;
+        background: transparent;
+        color: #ccc;
+    }
+    .widget-numberedSlider-header .value:hover {
+        background: #222;
+        color: #fff;
+    }

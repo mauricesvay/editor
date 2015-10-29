@@ -1,0 +1,35 @@
+.widget-buttongroup {
+    display: flex;
+    margin: 8px 0;
+    height: 24px;
+    border-radius: 3px;
+    line-height: 24px;
+    background: #222;
+}
+    .widget-buttongroup > label {
+        position: relative;
+        flex: 1;
+        text-align: center;
+        color: #ddd;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .widget-buttongroup > label:hover {
+        color: #fff;
+    }
+    .widget-buttongroup > label:first-child {
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .widget-buttongroup > label:last-child {
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .widget-buttongroup > label > input {
+        position: absolute;
+        opacity: 0;
+    }
+    .widget-buttongroup > .active {
+        background: #1CAAD9;
+        color: #FFF;
+    }

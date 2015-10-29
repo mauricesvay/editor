@@ -1,0 +1,111 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: rgba(0,0,0,.5);
+}*/
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #000;
+    height: 100%;
+}
+
+button {
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    box-sizing: border-box;
+    height: 36px;
+    padding: 0 18px;
+    border: 0;
+    border-radius: 4px;
+
+    font-family: "Titillium Web";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+    background: #1caad9;
+    color: #FFF;
+
+    outline: 0;
+}
+.btn:focus,
+.btn:hover {
+    background: #1687ac;
+}
+.btn:active {
+    background: #22313a;
+}
+.btn-small {
+    height: 28px;
+    padding: 0 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.btn-group {
+    display: flex;
+}
+    .btn-group .btn {
+        border-radius: 0;
+    }
+    .btn-group .btn:first-child {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+    .btn-group .btn:last-child {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+.scrollable,
+.react-tabs [role=tabpanel] {
+    overflow: auto;
+}
+
+.scrollable::-webkit-scrollbar,
+.react-tabs [role=tabpanel]::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollable::-webkit-scrollbar-track,
+.react-tabs [role=tabpanel]::-webkit-scrollbar-track {
+    background: #a3a3a3
+}
+
+.scrollable::-webkit-scrollbar-thumb,
+.react-tabs [role=tabpanel]::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background: #444;
+    background-clip: padding-box;
+}

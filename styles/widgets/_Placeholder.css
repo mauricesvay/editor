@@ -1,0 +1,9 @@
+.placeholder {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+}
+.widget-placeholder {
+    background: #000;
+    height: 160px;
+}
